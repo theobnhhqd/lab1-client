@@ -3,3 +3,5 @@ stdin.addListener("data", function(str){
     console.log(str.toString().trim())
     stdin.destroy()
 });
+
+console.log(str.length)
